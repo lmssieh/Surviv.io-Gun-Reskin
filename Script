@@ -1,0 +1,38 @@
+// Reskin for guns
+(function() {
+    'use strict';
+ 
+var tracerColors = ""
+var func = {
+    webpack_inject3: (w, e, get) => {
+        tracerColors = get("ad1c4e70")
+    },
+};
+if(typeof window.webpackJsonp === 'function') {
+    window.webpackJsonp([0], func, ["webpack_inject3"]);
+} else {
+    window.webpackJsonp.push([
+        ["webpack_inject3"],
+        func,
+        [["webpack_inject3"]]
+    ]);
+}
+Object.keys(tracerColors).forEach(function(key3) {
+    if(key52.match(/m9|m9_dual|p30l|p30l_dual|mp5|vector|glock|glock_dual|mac10|ump9|m93r|m93r_dual|scorpion|vss/g)) {
+        tracerColors[key3].bulletColor = 0xFAD02C;
+        tracerColors[key3].bulletTint = 0xFAD02C;
+    } else if(key52.match(/ak|ot38|ot38_dual|ots38|ots38_dual|m39|dp28|mosin|scar|bar|sv98|groza|grozas|an94|garand|pkp|svd|blr|pkm|m134/g)) {
+        tracerColors[key3].bulletColor = 0x0000FF;
+        tracerColors[key3].bulletTint = 0x0000FF;
+    } else if(key52.match(/m1100|m870|mp220|saiga|spas12|m1014|hawk12g/g)) {
+        tracerColors[key3].bulletColor = 0xff0000;
+        tracerColors[key3].bulletTint= 0xff0000;
+    } else if(key52.match(/famas|hk416|m249|qbb97|mk12|m4a1|scout_elite|l86/g)) {
+        tracerColors[key3].bulletColor = 0x40ff59;
+        tracerColors[key3].bulletTint = 0x40ff59;
+    } else if(key52.match(/model94|colt45|colt45_dual|m1a1|m1911|m1911_dual|mkg45|vector45/g)) {
+        tracerColors[key3].bulletColor = 0x7300ab;
+        tracerColors[key3].bulletTint= 0x7300ab;
+    }
+})
+})();
