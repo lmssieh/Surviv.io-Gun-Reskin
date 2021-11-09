@@ -18,12 +18,14 @@ if(typeof window.webpackJsonp === 'function') {
     ]);
 }
 Object.keys(tracerColors).forEach(function(key3) {
-    if(key52.match(/mac10/g)) { //yellow
-        tracerColors[key3].worldImg.sprite = "gun-m9a17-01.img";
+    if(key52.match(/mac10/g)) {
+        tracerColors[key3].worldImg.sprite = "gun-m9a17-01.img"; //yellow
     } else if(key52.match(/glock|glock_dual/g)) {
         tracerColors[key3].worldImg.sprite = "gun-m9a17-01.img";
-    } else if(key52.match(/ak/g)) { //blue
+        } else if(key52.match(/mp5/g)) {
         tracerColors[key3].worldImg.sprite = "gun-m9a17-01.img";
+    } else if(key52.match(/ak/g)) {
+        tracerColors[key3].worldImg.sprite = "gun-m9a17-01.img"; //blue
     } else if(key52.match(/scar/g)) {
         tracerColors[key3].worldImg.sprite = "gun-m9a17-01.img";
     } else if(key52.match(/sv98/g)) {
@@ -32,13 +34,17 @@ Object.keys(tracerColors).forEach(function(key3) {
         tracerColors[key3].worldImg.sprite = "gun-m9a17-01.img";
     } else if(key52.match(/scar/g)) {
         tracerColors[key3].worldImg.sprite = "gun-m9a17-01.img";
-    } else if(key52.match(/spas12/g)) { //red
+    } else if(key52.match(/m39/g)) {
         tracerColors[key3].worldImg.sprite = "gun-m9a17-01.img";
+    } else if(key52.match(/spas12/g)) {
+        tracerColors[key3].worldImg.sprite = "gun-m9a17-01.img"; //red
     } else if(key52.match(/m1014/g)) {
         tracerColors[key3].worldImg.sprite = "gun-m9a17-01.img";
-    } else if(key52.match(/l86/g)) { //green
-        tracerColors[key3].worldImg.sprite = "gun-m9a17-01.img";
+    } else if(key52.match(/l86/g)) { 
+        tracerColors[key3].worldImg.sprite = "gun-m9a17-01.img"; //green
     } else if(key52.match(/scout_elite/g)) {
+        tracerColors[key3].worldImg.sprite = "gun-m9a17-01.img";
+    } else if(key52.match(/mk12/g)) {
         tracerColors[key3].worldImg.sprite = "gun-m9a17-01.img";
     } else if(key52.match(/hk416/g)) {
         tracerColors[key3].worldImg.sprite = "gun-m9a17-01.img";
