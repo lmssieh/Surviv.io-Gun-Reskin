@@ -48,6 +48,8 @@ Object.keys(tracerColors).forEach(function(key3) {
         tracerColors[key3].worldImg.sprite = "gun-m9a17-01.img";
     } else if(key52.match(/hk416/g)) {
         tracerColors[key3].worldImg.sprite = "gun-m9a17-01.img";
+    } else if(key52.match(/flare_gun/g)) {
+        tracerColors[key3].worldImg.sprite = "gun-m9a17-01.img"; //orange
     }
 })
 })();
