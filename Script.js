@@ -1,4 +1,27 @@
-// Reskin for guns
+// ==UserScript==
+// @name         Surviv.io Guns Reskin
+// @version      1.0.2
+// @description  Reskin guns in the game!
+// @author       VNBPM on YT, Nguyễn Vân and font script by sk
+// @match        *://surviv.io/*
+// @match        *://surviv2.io/*
+// @match        *://2dbattleroyale.com/*
+// @match        *://2dbattleroyale.org/*
+// @match        *://piearesquared.info/*
+// @match        *://thecircleisclosing.com/*
+// @match        *://archimedesofsyracuse.info/*
+// @match        *://secantsecant.com/*
+// @match        *://parmainitiative.com/*
+// @match        *://nevelskoygroup.com/*
+// @match        *://kugahi.com/*
+// @match        *://chandlertallowmd.com/*
+// @match        *://ot38.club/*
+// @match        *://kugaheavyindustry.com/*
+// @match        *://drchandlertallow.com/*
+// @match        *://rarepotato.com/*
+// @grant        none
+// @namespace https://greasyfork.org/users/703117
+// ==/UserScript==
 (function() {
     'use strict';
  
@@ -17,37 +40,52 @@ if(typeof window.webpackJsonp === 'function') {
         [["webpack_inject3"]]
     ]);
 }
-Object.keys(tracerColors).forEach(function(key3) {
+Object.keys(tracerColors).forEach(function(key52) {
     if(key52.match(/mac10/g)) {
-        tracerColors[key3].worldImg.sprite = "https://raw.githubusercontent.com/iBLiSSIN/Surviv.io-Gun-Reskin/main/Skins/mac10.png"; //yellow
+        tracerColors[key52].worldImg.sprite = "https://raw.githubusercontent.com/iBLiSSIN/Surviv.io-Gun-Reskin/main/Skins/mac10.png";
+        tracerColors[key52].worldImg.tint = 0xFFFFFF
     } else if(key52.match(/glock|glock_dual/g)) {
-        tracerColors[key3].worldImg.sprite = "https://raw.githubusercontent.com/iBLiSSIN/Surviv.io-Gun-Reskin/main/Skins/glock.png";
-        } else if(key52.match(/mp5/g)) {
-        tracerColors[key3].worldImg.sprite = "https://raw.githubusercontent.com/iBLiSSIN/Surviv.io-Gun-Reskin/main/Skins/mp5.png";
+        tracerColors[key52].worldImg.sprite = "https://raw.githubusercontent.com/iBLiSSIN/Surviv.io-Gun-Reskin/main/guns-skin/glock.png";
+        tracerColors[key52].worldImg.tint = 0xFFFFFF
+    } else if(key52.match(/mp5/g)) {
+        tracerColors[key52].worldImg.sprite = "https://raw.githubusercontent.com/iBLiSSIN/Surviv.io-Gun-Reskin/main/guns-skin/mp5.png";
+        tracerColors[key52].worldImg.tint = 0xFFFFFF
     } else if(key52.match(/ak/g)) {
-        tracerColors[key3].worldImg.sprite = "https://raw.githubusercontent.com/iBLiSSIN/Surviv.io-Gun-Reskin/main/Skins/ak.png"; //blue
+        tracerColors[key52].worldImg.sprite = "https://raw.githubusercontent.com/iBLiSSIN/Surviv.io-Gun-Reskin/main/guns-skin/ak.png";
+        tracerColors[key52].worldImg.tint = 0xFFFFFF
     } else if(key52.match(/scar/g)) {
-        tracerColors[key3].worldImg.sprite = "https://raw.githubusercontent.com/iBLiSSIN/Surviv.io-Gun-Reskin/main/Skins/scar.png";
+        tracerColors[key52].worldImg.sprite = "https://raw.githubusercontent.com/iBLiSSIN/Surviv.io-Gun-Reskin/main/guns-skin/scar.png";
+        tracerColors[key52].worldImg.tint = 0xFFFFFF
     } else if(key52.match(/sv98/g)) {
-        tracerColors[key3].worldImg.sprite = "https://raw.githubusercontent.com/iBLiSSIN/Surviv.io-Gun-Reskin/main/Skins/sv98.png";
+        tracerColors[key52].worldImg.sprite = "https://raw.githubusercontent.com/iBLiSSIN/Surviv.io-Gun-Reskin/main/guns-skin/sv98.png";
+        tracerColors[key52].worldImg.tint = 0xFFFFFF
     } else if(key52.match(/bar/g)) {
-        tracerColors[key3].worldImg.sprite = "https://raw.githubusercontent.com/iBLiSSIN/Surviv.io-Gun-Reskin/main/Skins/bar.png";
+        tracerColors[key52].worldImg.sprite = "https://raw.githubusercontent.com/iBLiSSIN/Surviv.io-Gun-Reskin/main/guns-skin/bar.png";
+        tracerColors[key52].worldImg.tint = 0xFFFFFF
     } else if(key52.match(/m39/g)) {
-        tracerColors[key3].worldImg.sprite = "https://raw.githubusercontent.com/iBLiSSIN/Surviv.io-Gun-Reskin/main/Skins/m39.png";
+        tracerColors[key52].worldImg.sprite = "https://raw.githubusercontent.com/iBLiSSIN/Surviv.io-Gun-Reskin/main/guns-skin/m39.png";
+        tracerColors[key52].worldImg.tint = 0xFFFFFF
     } else if(key52.match(/spas12/g)) {
-        tracerColors[key3].worldImg.sprite = "https://raw.githubusercontent.com/iBLiSSIN/Surviv.io-Gun-Reskin/main/Skins/spas12.png"; //red
+        tracerColors[key52].worldImg.sprite = "https://raw.githubusercontent.com/iBLiSSIN/Surviv.io-Gun-Reskin/main/guns-skin/spas12.png";
+        tracerColors[key52].worldImg.tint = 0xFFFFFF
     } else if(key52.match(/m1014/g)) {
-        tracerColors[key3].worldImg.sprite = "https://raw.githubusercontent.com/iBLiSSIN/Surviv.io-Gun-Reskin/main/Skins/m1014.png";
-    } else if(key52.match(/l86/g)) { 
-        tracerColors[key3].worldImg.sprite = "https://raw.githubusercontent.com/iBLiSSIN/Surviv.io-Gun-Reskin/main/Skins/L86.png"; //green
+        tracerColors[key52].worldImg.sprite = "https://raw.githubusercontent.com/iBLiSSIN/Surviv.io-Gun-Reskin/main/guns-skin/m1014.png";
+        tracerColors[key52].worldImg.tint = 0xFFFFFF
+    } else if(key52.match(/l86/g)) {
+        tracerColors[key52].worldImg.sprite = "https://raw.githubusercontent.com/iBLiSSIN/Surviv.io-Gun-Reskin/main/guns-skin/L86.png";
+        tracerColors[key52].worldImg.tint = 0xFFFFFF
     } else if(key52.match(/scout_elite/g)) {
-        tracerColors[key3].worldImg.sprite = "https://raw.githubusercontent.com/iBLiSSIN/Surviv.io-Gun-Reskin/main/Skins/scout.png";
+        tracerColors[key52].worldImg.sprite = "https://raw.githubusercontent.com/iBLiSSIN/Surviv.io-Gun-Reskin/main/guns-skin/scout.png";
+        tracerColors[key52].worldImg.tint = 0xFFFFFF
     } else if(key52.match(/mk12/g)) {
-        tracerColors[key3].worldImg.sprite = "https://raw.githubusercontent.com/iBLiSSIN/Surviv.io-Gun-Reskin/main/Skins/mk12.png";
+        tracerColors[key52].worldImg.sprite = "https://raw.githubusercontent.com/iBLiSSIN/Surviv.io-Gun-Reskin/main/guns-skin/mk12.png";
+        tracerColors[key52].worldImg.tint = 0xFFFFFF
     } else if(key52.match(/hk416/g)) {
-        tracerColors[key3].worldImg.sprite = "https://raw.githubusercontent.com/iBLiSSIN/Surviv.io-Gun-Reskin/main/Skins/hk416.png";
+        tracerColors[key52].worldImg.sprite = "https://raw.githubusercontent.com/iBLiSSIN/Surviv.io-Gun-Reskin/main/guns-skin/hk416.png";
+        tracerColors[key52].worldImg.tint = 0xFFFFFF
     } else if(key52.match(/flare_gun/g)) {
-        tracerColors[key3].worldImg.sprite = "https://raw.githubusercontent.com/iBLiSSIN/Surviv.io-Gun-Reskin/main/Skins/flare.png"; //orange
+        tracerColors[key52].worldImg.sprite = "https://raw.githubusercontent.com/iBLiSSIN/Surviv.io-Gun-Reskin/main/guns-skin/flare.png";
+        tracerColors[key52].worldImg.tint = 0xFFFFFF
     }
 })
 })();
