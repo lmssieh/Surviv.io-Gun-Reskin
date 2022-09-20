@@ -60,7 +60,7 @@
 	];
 	const baseURL =
 		"https://raw.githubusercontent.com/iBLiSSIN/Surviv.io-Gun-Reskin/main/Skins/";
-	tracerColors[key52].worldImg.tint = 0xffffff;
+	survivGuns[gun].worldImg.tint = 0xffffff;
 
 	guns.forEach(function (gun) {
 		survivGuns[gun].worldImg.sprite = `${baseURL}${gun}.png`;
