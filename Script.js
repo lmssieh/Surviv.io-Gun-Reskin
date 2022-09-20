@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Surviv.io Guns Reskin
-// @version      1.0.2
+// @version      1.0.3
 // @description  Reskin guns in the game!
 // @author       VNBPM on YT, Nguyễn Vân and font script by sk
 // @match        *://surviv.io/*
@@ -60,7 +60,6 @@
 	];
 	const baseURL =
 		"https://raw.githubusercontent.com/iBLiSSIN/Surviv.io-Gun-Reskin/main/Skins/";
-	tracerColors[key52].worldImg.tint = 0xffffff;
 
 	guns.forEach(function (gun) {
 		survivGuns[gun].worldImg.sprite = `${baseURL}${gun}.png`;
