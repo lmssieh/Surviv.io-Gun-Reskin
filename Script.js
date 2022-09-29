@@ -86,6 +86,11 @@
     container.innerHTML = `
         <div style="width: 80%;height: 80%;top: 50%;left: 50%;position: absolute;transform: translate(-50%, -50%);border-radius: 10px;background-color: #111;">
             <div id="skkey" style="padding:30px">
+                <div>
+                    <h2>Surviv.io Gun Reskin</h2>
+                    <p>want to try a different skin? try replacing the gun skin url below with your own link
+                    </p>
+                </div>
                 <table style="width:100%;">
                     <tr>
                         <th style="background:none">Name</th>
